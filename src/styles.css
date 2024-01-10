@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto' sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inter', sans-serif;
+}
+#navbar{
+    padding: 8px;
+    margin: 0;
+}
+#logo{
+    height: 30px;
+}
+
+h1{
+    text-align: center;
+    color: black;
+}
+#banner{
+    object-fit: cover;
+    width: 100%;
+}
+
+#description {
+    width: 50%;
+    padding-right: 8px;
+    font-size: 1.25rem;
+}
+
+#team {
+    width: 50%;
+}
+
+#team-image {
+    border-radius: 5px;
+    width: 100%;
+}
+
+#about {
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 8px;
+}
+
+h2 {
+    text-align: center;
+}
+#jobs {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+a {
+    text-decoration: none;
+    color: #3B82F6;
+}
+a:hover, a:focus {
+    color: #1D4ED8;
+}
+
+#application {
+    max-width: 800px;
+    margin: 0 auto; 
+    padding: 0;
+}
+#application-form label {
+    font-weight: 600;
+}
+.form-group {
+    margin: 16px 0;
+}
+#application-form input, select, textarea{
+    padding: 4px;
+    font-size: 1.25rem;
+    margin-top: 4px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+.form-group textarea {
+    width: 80%;
+    font-family: 'Roboto', sans-serif;
+}
+.form-group input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+}
+.form-group input[type="submit"] {
+    background-color: #1D4ED8;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+h3 {
+    margin-bottom: 4px;
+    margin-top: 0px;
+}
+.apply {
+    float: right;
+}
+#footer {
+    background-color: #CBD5E1;
+    margin-top: 32px;
+    padding: 8px;
+    text-align: center;
+}
+#footer-links {
+    list-style: none;
+    
+}
+#footer-links li {
+    display: inline;
+    margin: 0 16px;
+}
+.copywright {
+    color: #71717A;
+    font-size: 0.875rem;
+}
+#jobs-table {
+    width: 100%;
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+.jobs-header-row th {
+    border: 1px solid gray;
+    padding: 8px;
+    background-color: #BFDBFE;
+    text-align: center;
+}
+.jobs-data-row td {
+    border: 1px solid gray;
+    padding: 8px;
+
+}
+#jobs-table tr:nth-child(odd) {
+    background-color: ghostwhite;
+}
